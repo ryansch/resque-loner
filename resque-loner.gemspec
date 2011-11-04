@@ -5,12 +5,12 @@ $:.unshift lib unless $:.include?(lib)
 require 'resque-loner/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'resque-loner'
+  s.name        = 'ryansch-resque-loner'
   s.version     = Resque::Plugins::Loner::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ['Jannis Hermanns']
-  s.email       = ['jannis@moviepilot.com']
-  s.homepage    = 'http://github.com/jayniz/resque-loner'
+  s.authors     = ['Jannis Hermanns', 'Ryan Schlesinger']
+  s.email       = ['jannis@moviepilot.com', 'ryan@instanceinc.com']
+  s.homepage    = 'http://github.com/ryansch/resque-loner'
   s.summary     = 'Adds unique jobs to resque'
   s.has_rdoc    = false
 
